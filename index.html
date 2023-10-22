@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="dist/output.css" />
+  </head>
+
+  <body>
+    <div id="particles-js" class="fixed inset-0 -z-10 bg-navy"></div>
+    <main class="min-h-screen flex justify-center items-center">
+      <section class="w-full max-w-[400px] sm:max-w-[500px] p-4 bg-navy">
+        <div class="sm:flex sm:items-center sm:gap-4">
+          <div
+            class="w-32 h-32 shrink-0 mx-auto p-2 rounded-full overflow-hidden ring-2 ring-aquamarine"
+          >
+            <img
+              src="https://avatars.githubusercontent.com/nainghtetlinn"
+              alt="Naing Htet Linn"
+              class="w-full h-full rounded-full object-cover"
+            />
+          </div>
+
+          <article>
+            <div class="mt-2 sm:mt-0 flex justify-center sm:justify-start">
+              <div>
+                <h1
+                  class="flex gap-2 text-3xl font-bold italic text-aquamarine"
+                >
+                  <span>Naing</span><span>Htet</span
+                  ><span class="relative">
+                    <span class="opacity-0">Linn</span>
+                    <span
+                      class="absolute inset-0 [-webkit-text-stroke:1px_aquamarine] text-transparent"
+                      >Linn</span
+                    >
+                    <span class="absolute inset-0 animate-wave">Linn</span>
+                  </span>
+                </h1>
+                <div
+                  class="h-3 w-full bg-[length:20px_20px] [background-image:linear-gradient(45deg,aquamarine_25%,transparent_25%,transparent_50%,aquamarine_50%,aquamarine_75%,transparent_75%,transparent_100%,aquamarine_100%)]"
+                ></div>
+              </div>
+            </div>
+
+            <p class="text-justify text-aquamarine mt-4">
+              I'm an passionate full-stack developer currently exploring React
+              Native. Beyond coding, I find joy in playing volleyball.
+            </p>
+
+            <div class="text-aquamarine text-2xl py-2 flex items-center gap-4">
+              <a href="mailto:naing.work.it@gmail.com"
+                ><i class="fa-solid fa-envelope"></i
+              ></a>
+              <a href="https://github.com/nainghtetlinn"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+              <a href="https://www.linkedin.com/in/nainghtetlinn95"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a href="https://www.facebook.com/nainghtetlinn95"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+    <script src=" https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js "></script>
+    <script>
+      particlesJS.load("particles-js", "assets/config.json", function () {
+        console.log("callback - particles.js config loaded");
+      });
+    </script>
+  </body>
+</html>
